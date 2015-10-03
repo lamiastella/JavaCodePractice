@@ -5,20 +5,20 @@ public class BSTNode<E> {
 	private BSTNode<E> leftNode=null;
 	private BSTNode<E> rightNode=null;
 
-	public BSTNode getLeftNode(){
+	public BSTNode<E> getLeftNode(){
 		return this.leftNode;
 	}
-	public void setLeftNode(BSTNode rootLeft){
+	public void setLeftNode(BSTNode<E> rootLeft){
 		//BSTNode newLeftNode=new BSTNode();
 		//newLeftNode.leftNode=null;
 		//this.leftNode=newLeftNode;
 		//newLeftNode.value=rootLeft;
 		this.leftNode=rootLeft;
 	}
-	public BSTNode getRightNode(){
+	public BSTNode<E> getRightNode(){
 		return this.rightNode;
 	}
-	public void setRightNode(BSTNode rootRight){
+	public void setRightNode(BSTNode<E> rootRight){
 		//BSTNode newRightNode=new BSTNode();
 		//newRightNode.rightNode=null;
 		//this.rightNode=newRightNode;

@@ -19,4 +19,8 @@ public class Node<E> {
 	public void setItem(E item){
 		this.item=item;
 	}
+	
+	public boolean hasNext(){
+		return (this.next != null);
+	}
 }
